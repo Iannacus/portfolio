@@ -45,6 +45,14 @@ p{
     font-weight: 900;
 }
 
+.p-white{
+    color: white;
+}
+
+.p-orange{
+    font-weight: bold;
+    color:#ff5733;
+}
 .bg-gray{
     background-color: #fcfcfc;
 }
@@ -81,8 +89,17 @@ p{
     
 }
 
+.bg-footer{
+    background-color: #333;
+}
+
 .contenedor{
     width: 65%;
+    margin: auto;
+}
+
+.f-contenedor{
+    width: 35%;
     margin: auto;
 }
 
@@ -225,3 +242,16 @@ p{
 .d40{
     top: 40px;
 } 
+
+footer{
+    margin-top: 100px;
+}
+
+.reply-time{
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-photo{
+    border-radius: 50%;
+}
