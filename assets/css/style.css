@@ -18,10 +18,11 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Gothic A1', sans-serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     color: var(--titlesColor)
 }
+
 
 
 p{
@@ -150,14 +151,6 @@ p{
         width: 90%;
     }
 }
-
-
-
-.f-contenedor{
-    max-width: 45rem;
-    margin: auto;
-
-}
 .center-text{
     text-align: center;
 }
@@ -175,6 +168,9 @@ p{
     margin-left: 50px;
 }
 
+.padding-top {
+    padding: 7rem 0;
+}
 @media (min-width: 990px) {
     .margin-top{
         padding-top: 75px;
@@ -224,7 +220,7 @@ p{
 }
 
 .about{
-    margin-top: 150px;
+    margin: 10rem 0 5rem 0;
 }
 
 @media (min-width: 990px){
@@ -307,9 +303,12 @@ p{
     } 
 }
 
+/* FOOTER */
 
-footer{
-    margin-top: 100px;
+.f-contenedor{
+    max-width: 45rem;
+    margin: auto;
+
 }
 
 .reply-time{
