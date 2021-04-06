@@ -6,20 +6,8 @@
     width: 16.67%;
 }
 
-.col-3{
-    width: 25%;
-}
-
-.col-4{
-    width: 33.33%;
-}
-
 .col-5{
     width: 41.66%;
-}
-
-.col-6{
-    width: 50%;
 }
 
 .col-7{
@@ -46,6 +34,37 @@ col-12{
     width: 100%
 }
 
+.col-md-12{
+    width: 100%;
+}
+
+@media (min-width: 990px) {
+
+    .col-3{
+        width: 25%;
+    }
+
+    .col-4{
+        width: 33.33%;
+    }
+
+    .col-6{
+        width: 50%;
+    }
+}
+
+
+.mid-12 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media (min-width: 768px){
+    .mid-12{
+        width: 600px;
+    }
+}
 
 
 .display-flex{
