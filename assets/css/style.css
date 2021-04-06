@@ -191,12 +191,65 @@ p{
     font-weight: 700;
 }
 
+.lista {
+    display: block;
+}
+
+@media (min-width: 990px) {
+    .lista {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 .logo{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
 
+.s-menu {
+    display: block;
+    position: relative;
+}
 
+@media (max-width: 990px) {
+    .desplegable {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 10rem;
+        background-color: #333;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    
+    .desplegable .lista ul li a{
+        color: white;
+    }
+
+    .desplegable .lista ul li{
+        padding: 1rem 0;
+    }
+} 
+
+
+
+@media (min-width: 990px) {
+    .s-menu {
+        display: none;
+
+    }
+    
+    .desplegable {
+        display: block;
+    }
+
+    .lista{
+        display: flex;
+    }
+
+    
+}
 
 .bg-img{
     display: none;
