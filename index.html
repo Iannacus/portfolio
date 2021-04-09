@@ -19,20 +19,20 @@
     <section>
         <header>
             <nav class="main-nav">
-                    <div class="contenedor display-flex justify-content-sb">
+                    <div class="container display-flex justify-content-sb">
 
                         <div class="nav-logo col-4 display-flex align-items-center">
                             <h3 class="logo">Ian Rosas</h3>
                         </div>
 
                         
-                        <div class="col-8 lista">
+                        <div class="col-8 list">
                             
                             <div >
-                                <a class="s-menu" href="#"><i class="fas fa-bars"></i></a>
-                                <div class="desplegable ">
-                                    <div class="lista">
-                                        <ul class="lista">
+                                <a class="s-menu" id="menu" href="#"><i class="fas fa-bars"></i></a>
+                                <div class="drop-down" id="show-menu">
+                                    <div class="list">
+                                        <ul class="list" id="list-menu">
                                             <li><a href="#">About</a></li>
                                             <li><a href="#">Work</a></li>
                                             <li><a href="#">Blog</a></li>
@@ -47,7 +47,7 @@
                     </div>
             </nav>
             <section>
-                <div class="contenedor hero">
+                <div class="container hero">
                     <div class="col-7 mid-12">
                         <img class="img-hero" src="./assets/oliver.png" alt="">
                     </div>
@@ -66,7 +66,7 @@
     </section>
 
     <section>
-        <div class="contenedor">
+        <div class="container">
             <div class="about">
                 <div class="col-6 col-md-12 margin-top">
                     <p class="small-title">¿Qué se hacer? </p>
@@ -89,7 +89,7 @@
     </section>
 
     <section class="bg-gray padding-top">
-        <div class="contenedor ">
+        <div class="container">
             <div class="col-6">
                 <p class="small-title">
                     ¿Cómo trabajo?
@@ -102,14 +102,14 @@
                     Quisquam iure facere voluptatem saepe quos, fuga laborum rerum.
                 </p>
             </div>
-            <div class="seccionCartas"> <!--Inicio seccion cartas-->
+            <div class="cards-section"> <!--Inicio seccion cartas-->
                 <div class="cards margin-top">
-                    <div class="card-Container col-4">
+                    <div class="card-container col-4">
                         <div class="card d40">
                             <div class="icon bg-yellow">
                                 <i class="far fa-comments"></i>
                             </div>
-                            <div class="content">
+                            <div class="card-content">
                                 <h3 class="p4">1.-Strategy</h3>
                                 <p class="text-card">
                                     <strong>Ask first.</strong> De dapibus, tellus ac cursus commodo, tortor mauris 
@@ -119,12 +119,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-Container col-4">
+                    <div class="card-container col-4">
                         <div class="card d80">
                             <div class="icon bg-green">
                                 <i class="fas fa-share-alt"></i>
                             </div>
-                            <div class="content">
+                            <div class="card-content">
                                 <h3 class="p4">2.- Mockup</h3>
                                 <p class="text-card">
                                     <strong>Low fidelity design.</strong> Fusce dapibus, tellus ac cursus commodo, 
@@ -134,12 +134,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card-Container card">
+                    <div class="card-container col-4">
+                        <div class="card">
                             <div class="icon bg-orange">
                                 <i class="far fa-lightbulb"></i>
                             </div>
-                            <div class="content">
+                            <div class="card-content">
                                 <h3 class="p4">3.- Desing</h3>
                                 <p class="text-card">
                                     <strong>High fidelity design.</strong> Fusce dapibus, tellus ac cursus commodo, 
@@ -152,12 +152,12 @@
                 </div>
     
                 <div class="cards margin-top">
-                    <div class="col-4 card-Container">
+                    <div class="col-4 card-container">
                         <div class="card d40">
                             <div class="icon bg-lgreen">
                                 <i class="fas fa-pencil-ruler"></i>
                             </div>
-                            <div class="content">
+                            <div class="card-content">
                                 <h3 class="p4">4.-Development</h3>
                                 <p class="text-card">
                                     <strong>Bringing designs to life</strong> Libus, tellus ac cursus commodo, 
@@ -167,12 +167,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 card-Container">
+                    <div class="col-4 card-container">
                         <div class="card d80">
                             <div class="icon bg-blue">
                                 <i class="fas fa-certificate"></i>
                             </div>
-                            <div class="content">
+                            <div class="card-content">
                                 <h3 class="p4">5.- Quality</h3>
                                 <p class="text-card">
                                     <strong>Transparent process.</strong> Fusce dapibus, tellus ac cursus commodo, 
@@ -182,12 +182,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 card-Container">
+                    <div class="col-4 card-container">
                         <div class="card">
                             <div class="icon bg-aqua">
                                 <i class="fas fa-headset"></i>
                             </div>
-                            <div class="content">
+                            <div class="card-content">
                                 <h3 class="p4">6.- Support</h3>
                                 <p class="text-card">
                                     <strong>I have your back for top notch support.</strong> Fusce dapibus, tellus ac cursus commodo, 
@@ -204,7 +204,7 @@
     <section>
             <footer>
                 <div class="col-12 bg-footer padding-top">
-                    <div class="f-contenedor center-text">
+                    <div class="f-container center-text">
                         <h3 class="small-title">
                             Get In Touch
                         </h3>
@@ -225,8 +225,8 @@
                         <div class="margin-top">
                             <button class="btn btn-primary margin-left">hello@ianrosas.com</button>
                         </div>
-                        <div class="margin-top">
-                            <p> <span>&copy; 2020 All rights reserved.-</span> Designed & Coded by Ian Rosas </p>
+                        <div class="copy margin-top">
+                            <p> &copy; 2020 All rights reserved.- <span>Designed & Coded by Ian Rosas</span></p>
                         </div>
                     </div>
                 </div>
